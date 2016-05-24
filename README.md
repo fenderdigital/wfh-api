@@ -17,14 +17,14 @@ default: `/wfh default:wfo` this allows your default location to be either `wfh,
 The first time a user does /wfh, /wfo opts the user into the system. After that they will be shown in the api response /workers.
  
 
-#Have your own instance of WFH. [![Deploy your own!](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fpebblecode%2Fwfh3_backend)
+#Have your own instance of WFH. [![Deploy your own!](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Ffenderdigital%2Fwfh3_backend)
 You will need to configure Slack slash [commands](https://slack.com/services#service_16).
 use `/wfh` and `/wfo` to point to: `/webhooks/slack`, use a post request and add the tokens to the apps environment variables
 
 #Deployment
 - Up to you. we currently use heroku. 
 - Deploy your own.  
-[![Deploy your own!](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fpebblecode%2Fwfh3_backend)
+[![Deploy your own!](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Ffenderdigital%2Fwfh3_backend)
 - DB is [couchdb](http://couchdb.apache.org/) and easily hosted on [Cloudant](https://cloudant.com/) create a database called: `wfh`
 - #####ENV variables Set the following to get your app up and running
     - COUCHDB_USERNAME
