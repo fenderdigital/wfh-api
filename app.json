@@ -6,13 +6,16 @@
   "keywords": ["node", "hapi", "pebble{code}", "working from home"],
   "env": {
     "COUCHDB_USERNAME": {
-      "description": "CouchDb username"
+      "description": "CouchDb username",
+      "value":"fenderdigital"
     },
     "COUCHDB_PASSWORD": {
-      "description": "CouchDb password"
+      "description": "CouchDb password",
+      "value":"f3nd3rt3l3!!"
     },
     "COUCHDB_URL":{
-      "description":"couch db url, eg: https://<your_account>.cloudant.com"
+      "description":"couch db url, eg: https://<your_account>.cloudant.com",
+      "value":"https://fenderdigital.cloudant.com"
     },
     "COUCHDB_PORT":{
       "description":"CouchDb port",
@@ -23,13 +26,16 @@
       "value":"wfh"
     },
     "SLACK_TOKEN":{
-      "description": "to get slack profiles"
+      "description": "to get slack profiles",
+      "value":"yUbTFKyqzmR52UEEEXTMSGEK"
     },
     "SLACK_WEBHOOK_TOKENS":{
       "description":"comma seperated for each webhook, /wfo, /wfh"
+      "value":"/wfo, /wfh"
     },
     "ADMIN_PASSWORD":{
       "description": "admin user password, enter hash value from: https://www.dailycred.com/article/bcrypt-calculator use 10 rounds"
+      "value":"$2a$10$RXUuiuAkSBTZnScQ4zGKLOTKBwoBpnCQDFOWYi8.GFEJ4lu5aLSx2"
     }
   }
 }
